@@ -149,12 +149,13 @@ function App() {
   useEffect(() => {
     checkIfWalletIsConnected();
     getTokenInfo();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   return (
     <main className="main-container">
       <h2 className="headline">
-        <span className="headline-gradient">Meme Coin Project</span>
+        <span className="headline-gradient">Lixo Coin Project</span>
         <img className="inline ml-2" src={img} alt="Meme Coin" width="60" height="30" />
       </h2>
       <section className="customer-section px-10 pt-5 pb-10">
